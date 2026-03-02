@@ -1,0 +1,60 @@
+/* ===== PAGE WRAPPER ===== */
+
+.homeGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+/* ===== TITLE (pokud přidáš) ===== */
+
+.homeTitle {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* ===== GRID LIST ===== */
+
+.homeList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 28px;
+  align-items: stretch;
+}
+
+/* jemné nadechnutí stránky */
+
+.homeGrid {
+  animation: fadeInPage 0.4s ease;
+}
+
+@keyframes fadeInPage {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 640px) {
+  .homeGrid {
+    padding: 24px 16px 40px;
+  }
+
+  .homeTitle {
+    font-size: 1.7rem;
+  }
+
+  .homeList {
+    gap: 18px;
+  }
+}

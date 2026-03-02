@@ -1,0 +1,74 @@
+/* ===== WRAPPER ===== */
+
+.wishlistWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+  animation: fadeInPage 0.4s ease;
+}
+
+/* ===== TITLE ===== */
+
+.wishlistTitle {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* ===== EMPTY ===== */
+
+.emptyWishlist {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-top: 40px;
+}
+
+/* ===== WRAPPER — CENTER FORCE ===== */
+
+.clearWishlistWrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* ===== BUTTON ===== */
+
+.clearWishlistBtn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1.5px solid #e11d48;
+  background: white;
+  color: #e11d48;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.22s ease;
+}
+
+.clearWishlistBtn:hover {
+  background: #e11d48;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(225, 29, 72, 0.25);
+}
+.btn {
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+  will-change: transform;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.96);
+}

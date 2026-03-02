@@ -1,0 +1,84 @@
+/* ===== DETAIL PAGE ===== */
+
+.detailCard {
+  max-width: 720px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 22px;
+  padding: 28px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+}
+
+.detailCardTitle {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #0f172a;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.detaiCardImg {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
+
+.detailCardDesc {
+  color: #475569;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.detailCardFooter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  font-weight: 600;
+  color: #334155;
+}
+/* ===== BACK BUTTON WRAPPER ===== */
+
+.backBtnWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0 68px;
+}
+
+/* ===== BUTTON ===== */
+
+.backBtn {
+  padding: 10px 20px;
+  border-radius: 999px;
+  border: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  background: #0f172a;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.backBtn:hover {
+  background: #1e293b;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.25);
+}
+
+.btn {
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+  will-change: transform;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.96);
+}
