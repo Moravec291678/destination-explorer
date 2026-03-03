@@ -194,7 +194,7 @@ export const destinations = [
     continent: "Amerika",
     description:
       "Barevné kubánské hlavní město s vintage auty, salsa hudbou, koloniální architekturou a nezaměnitelnou atmosférou.",
-    image: "https://images.unsplash.com/photo-1500759285222-a95626359a97?w=800",
+    image: "https://www.cksen.cz/modules/articles/images/800/Havana-pohled.jpg",
     rating: 4.5,
     price: "$",
   },
