@@ -127,8 +127,141 @@ export const destinations = [
     continent: "Afrika",
     description:
       "Magické marockého město s rušnými tržišti, paláci, mešitami a vůní koření v úzkých uličkách staré mediny.",
-    image: "https://www.letenkyzababku.sk/wp-content/uploads/2024/10/shutterstock_1555402802-1.jpg",
+    image:
+      "https://www.letenkyzababku.sk/wp-content/uploads/2024/10/shutterstock_1555402802-1.jpg",
     rating: 4.5,
+    price: "$",
+  },
+  {
+    id: 13,
+    name: "Amsterdam",
+    country: "Nizozemsko",
+    continent: "Evropa",
+    description:
+      "Město kanálů, větrných mlýnů, muzea Van Gogha a uvolněné atmosféry plné kol a historických domů.",
+    image: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=800",
+    rating: 4.7,
+    price: "$$",
+  },
+  {
+    id: 14,
+    name: "Řím",
+    country: "Itálie",
+    continent: "Evropa",
+    description:
+      "Věčné město s Koloseem, Vatikánem, Trevskou fontánou a tou nejlepší italskou kuchyní na světě.",
+    image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800",
+    rating: 4.8,
+    price: "$$",
+  },
+  {
+    id: 15,
+    name: "Bangkok",
+    country: "Thajsko",
+    continent: "Asie",
+    description:
+      "Pulzující metropole s zlatými chrámy, plovoucími trhy, uličním jídlem a nezapomenutelnou atmosférou.",
+    image: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800",
+    rating: 4.6,
+    price: "$",
+  },
+  {
+    id: 16,
+    name: "Lisabon",
+    country: "Portugalsko",
+    continent: "Evropa",
+    description:
+      "Malebné město na kopcích s historickými tramvajemi, azulejovými dlaždicemi, výborným vínem a atlantickou kuchyní.",
+    image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?w=800",
+    rating: 4.7,
+    price: "$$",
+  },
+  {
+    id: 17,
+    name: "Singapur",
+    country: "Singapur",
+    continent: "Asie",
+    description:
+      "Futuristické město-stát s neuvěřitelnou architekturou, zahrady v oblacích, skvělým jídlem a perfektní čistotou.",
+    image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800",
+    rating: 4.8,
+    price: "$$$",
+  },
+  {
+    id: 18,
+    name: "Havana",
+    country: "Kuba",
+    continent: "Amerika",
+    description:
+      "Barevné kubánské hlavní město s vintage auty, salsa hudbou, koloniální architekturou a nezaměnitelnou atmosférou.",
+    image: "https://images.unsplash.com/photo-1500759285222-a95626359a97?w=800",
+    rating: 4.5,
+    price: "$",
+  },
+  {
+    id: 19,
+    name: "Vídeň",
+    country: "Rakousko",
+    continent: "Evropa",
+    description:
+      "Imperiální město hudby, muzeí, kavárenské kultury a úchvatné barokní architektury na břehu Dunaje.",
+    image: "https://images.unsplash.com/photo-1516550893923-42d28e5677af?w=800",
+    rating: 4.8,
+    price: "$$$",
+  },
+  {
+    id: 20,
+    name: "Nairobi",
+    country: "Keňa",
+    continent: "Afrika",
+    description:
+      "Brána do africké divočiny – safari v národním parku přímo u města, živá kultura a úžasná příroda.",
+    image: "https://images.unsplash.com/photo-1611348586804-61bf6c080437?w=800",
+    rating: 4.4,
+    price: "$$",
+  },
+  {
+    id: 21,
+    name: "Vancouver",
+    country: "Kanada",
+    continent: "Amerika",
+    description:
+      "Město obklopené horami a oceánem – lyžování, hiking, multikulturní kuchyně a nádherná příroda.",
+    image: "https://images.unsplash.com/photo-1559511260-66a654ae982a?w=800",
+    rating: 4.7,
+    price: "$$$",
+  },
+  {
+    id: 22,
+    name: "Istanbul",
+    country: "Turecko",
+    continent: "Evropa",
+    description:
+      "Město na pomezí dvou kontinentů s Hagia Sophia, Grand Bazaarem, kebaby a jedinečnou směsí kultur.",
+    image: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800",
+    rating: 4.7,
+    price: "$$",
+  },
+  {
+    id: 23,
+    name: "Buenos Aires",
+    country: "Argentina",
+    continent: "Amerika",
+    description:
+      "Paříž Jižní Ameriky – tango, výborné steaky, evropská architektura a vášnivá fotbalová kultura.",
+    image: "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=800",
+    rating: 4.6,
+    price: "$$",
+  },
+  {
+    id: 24,
+    name: "Tchaj-pej",
+    country: "Tchaj-wan",
+    continent: "Asie",
+    description:
+      "Moderní asijská metropole s noční tržnicí Shilin, mrakodrapem Taipei 101, bubble tea a přátelskými lidmi.",
+    image: "https://images.unsplash.com/photo-1470004914212-05527e49370b?w=800",
+    rating: 4.6,
     price: "$",
   },
 ];
